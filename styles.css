@@ -1,0 +1,69 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+main {
+  background: #EEEEEE;
+}
+
+body {
+  background: #FFFFFF;
+  color: black;
+  font-family: Tahoma, sans-serif;
+  margin: 20;
+  border-radius: 10px;
+}
+
+.header {
+  text-align: center;
+  padding: 1em 0 0 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+.img-div {
+  display: block;
+  background: #FFFFFF;
+  padding: 10px;
+  margin: 2rem;
+}
+
+.img-caption {
+  text-align: center;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.tribute-info {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+ul li {
+  margin: 0.5rem 0;
+  padding: 10px;
+}
+
+.end-quote {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 20px;
+}
+
+.more-info{
+  display: block;
+  margin: 0.5rem 0;
+  padding: 2px 5px;
+  text-align: center;
+  font-size: 1.1rem;
+}
